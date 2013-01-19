@@ -1,0 +1,37 @@
+I really could use some help.
+
+Please tell me what I am doing wrong.
+
+I am trying to generate a world from a map image.
+
+TC is installed as single player/forge.
+
+I created a minecraft world named 'Terrain Test'; creative, cheats on, World Type:TerrainControl 
+
+I attempted to use the /tc map command but get the Unknown command error.
+
+I quit the game.
+
+I created a small test png file using a paint program and named it map.png.
+
+The image is 100 X 100 pixels with a '+' (about 50 X 50 pixels using lines 10 pixels thick) drawn in the plains green and the background is ocean blue.
+
+I went to .minecraft/mods/TerrainControl/worlds/Terrain Test/WorldConfig.ini and made the following changes:
+
+- BiomeMode:FromImage
+- ImageMode:FillEmpty
+
+I saved the file.
+
+I then moved the map.png file to the .minecraft/mods/TerrainControl/worlds/Terrain Test folder.
+
+I then went to .minecraft/saves/Terrain Test and deleted the region folder.
+
+I started minecraft and joined my Terrain Test world.
+
+The terrain regenerated but it just created massive ocean biom and did not generate the image.
+
+I went to x: 0, z: 0 and flew all around but did not see anything that even remotely resemble the png image.
+
+Any help would be greatly appreciated.
+
